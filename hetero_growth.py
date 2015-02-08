@@ -3,7 +3,7 @@ import pysb.core
 from pysb.macros import *
 import numpy as np
 
-model = Model('PolyGrowth')
+Model()
 
 def define_model(kdiv, kdeg):
 

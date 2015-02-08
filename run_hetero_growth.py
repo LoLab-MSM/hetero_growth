@@ -258,7 +258,7 @@ plt.annotate(r"DIP$>$0: kdiv = %g" % kdiv[-1], annot_DIPp, xycoords='axes fracti
 # Clonal time courses
 if len(full_output) > 0:
     n = 1
-    fig, axs = plt.subplots(1, 3) #, sharey=True)
+    fig, axs = plt.subplots(1, len(full_output)+1) #, sharey=True)
     fig.canvas.set_window_title('SSA time courses')
 for i in full_output:
 #     plt.figure('Total cell count v. time')
